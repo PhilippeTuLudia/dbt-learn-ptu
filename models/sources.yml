@@ -1,0 +1,19 @@
+sources:
+  - name: dbtlearn_payment
+    database: RAW
+    schema: STRIPE
+    tables:
+      - name: payment
+        identifier: PAYMENT
+  - name: dbtlearn_customers
+    database: RAW
+    schema: JAFFLE_SHOP
+    tables:
+      - name: customers
+        identifier: CUSTOMERS
+  - name: dbtlearn_orders
+    database: RAW
+    schema: JAFFLE_SHOP
+    tables:
+      - name: orders
+        identifier: ORDERS
